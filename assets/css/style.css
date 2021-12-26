@@ -1,0 +1,732 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-inner{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-inner>div{
+    margin: 0 auto; 
+}
+
+.social{
+   padding-top: 40px; 
+}
+
+.money, .lang{
+    padding-top: 30px;
+}
+
+.logo{
+    padding-top: 18px;
+}
+
+.tel{
+    width: 170px;
+    padding: 29px 0 24px 0;
+}
+
+.tel>p{
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+}
+
+.tel>img{
+    float: right;
+}
+
+input{
+    height: 55px;
+   margin: 23px 30px 22px 30px;
+}
+
+.navigator-inner>ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navigator-inner>ul>li{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+margin: 18px 30px 18px 30px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background: url("../images/Mask\ Group.png") center center no-repeat rgba(16, 17, 17, 0.25);
+    color: white;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 104px;
+}
+
+.intro-inner{
+    width: 100%;
+}
+
+.intro-title{
+    width: 725px;
+height: 102px;
+text-transform: uppercase;
+margin-bottom: 40px;
+}
+
+.intro-title>h1{
+    font-family: 'Open Sans', sans-serif;
+font-size: 50px;
+line-height: 55px;
+font-weight: 500;
+}
+
+.intro-text{
+    width: 249px;
+height: 45px;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border: black;
+    font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+border: 1px solid #FFFFFF;
+padding: 5px 20px;
+}
+
+.intro-btn{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 85px;
+width: 270px;
+height: 60px;
+background: rgba(255, 255, 255, 0.25);
+border-radius: 2px;
+font-size: 16px;
+line-height: 20px;
+}
+
+/*About*/
+.about{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.about-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-top{
+    max-width: 520px;
+}
+
+.about-title{
+    text-align: left;
+    border: none;
+    color: #1D1D1D;
+    font-weight: 600;
+font-size: 22pt;
+line-height: 36px;
+}
+
+.about-text{
+    font-size: 14pt;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #777777;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 520px;
+}
+
+.about-btn{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 15px 48px;
+    border: 1px solid #969696;
+    color: #969696;
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.about-list{
+    list-style-type: none;
+}
+
+.about-icon{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 15px;
+    left: -10px;
+}
+
+.about-btn:hover{
+    background-color: #969696;
+    color: white;
+}
+
+/*Hotel*/
+
+.hotel-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+    height: 140px;
+}
+
+.hotel-title{
+    font-size: 45pt;
+    font-weight: 400;
+    color: #232323;
+}
+
+.hline{
+    height: 1px;
+    width: 237px;
+    background-color: #C4C4C4;
+}
+
+.hotel-btn{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 12px 0;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid #969696;
+    color: #969696;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+.hotel-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotel-card{
+    width: 33.333%;
+    display: flex;
+    min-height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hotel-label{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.35);
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 14px;
+    font-weight: 400;
+}
+
+.hotel-content{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hotel-img{
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.hotel-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+color: #FFFFFF;
+}
+
+.hotel-stars{
+    margin-bottom: 30px;
+}
+
+.hotel-inner{
+    margin-top: 50px;
+}
+
+/*TOUR*/
+
+.tour-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+    height: 140px;
+}
+
+.tour-cards{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tour-card{
+    width: 325px;
+    position: relative;
+    background-color: #F8F8F8;
+}
+
+.tour-heading{
+    text-align: start;
+    width: 250px;
+height: 49px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 10px 30px 20px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+}
+
+.tour-text{
+    color: #848484;
+    font-family: 'Open Sans', sans-serif;
+    width: 250px;
+    font-size: 13px;
+line-height: 24px;
+margin-bottom: 18px;
+margin: 0 10px 18px 20px;
+}
+
+.tour-left{
+    padding-left: 20px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tour-right{
+    padding-right: 20px;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+color: #3E3E3E;
+
+}
+
+.tour-cost{
+    margin-top: -10px;
+    display: flex; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+font-size: 24px;
+line-height: 34px;
+color: #DD4053;
+
+}
+
+.tour-place{
+    font-weight: 600;
+font-size: 12px;
+line-height: 34px;
+color: #C9C9C9;
+margin-top: -15px;
+}
+
+.arrow-btn{
+    margin-top: 15%;
+}
+
+/*FOUND*/
+
+
+
+.found>.container> .hline{
+    margin: 66px 0 0 90px; 
+}
+
+.found-inner{
+    background-color: #F8F8F8;
+    width: 1065px;
+    height: 140px;
+    margin: 0 0 0 90px; 
+}
+
+.search>input{
+    height: 50px;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    background-color: #FFFFFF;
+    font-family:  'Montserrat', sans-serif; 
+}
+
+.search>.search-btn{ 
+    margin-left: 60px;
+    border-radius: 2px;
+    text-align: center;
+    padding:  15px 40px;
+    text-decoration: none;
+    background: #DD4053;
+    color: white;
+    font-family:  'Montserrat', sans-serif; 
+    font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+}
+
+.search-icons{
+    margin-bottom: -15px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+line-height: 17px;
+color: rgba(34, 34, 34, 0.4);
+padding-left: 30px;
+padding-top: 26px;
+}
+
+/*NEWS*/
+
+.news{
+    margin-top: 90px;
+    background-color: #F8F8F8;
+    height: 620px;
+}
+
+.news-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 94px;
+    height: 140px;
+}
+
+.news-cards{
+    margin-top: 72px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-card{
+    width: 238px;   
+}
+
+.news-data{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #BBBBBB;
+
+}
+
+.news-text{
+border: none;
+    text-align: start;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+margin-left: -20px;
+margin-bottom: 25px;
+}
+
+.news-btn{
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #232323;
+}
+
+.news-btn:hover{
+    color: #DD4053;
+}
+
+/*TRAVEL*/
+
+.travel{
+    margin-top: 90px;
+    background: #fbfbfb;
+    height: 1000px;
+}
+
+.travel-back{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: url("../images/Sea.png") center center no-repeat;
+    height: 450px;
+    color: rgb(255, 255, 255);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 104px;
+    
+}
+
+.travel-title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+}
+
+.travel-inner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 525px;
+    background-color: #FFF;
+    color: #2C2C2C;
+    flex-wrap: wrap;
+    width: 1180px;
+    margin-top: 125px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 70px;
+    margin-left: 30px;
+}
+
+.travel-inner>p{
+    display: flex;
+    width: 413px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.travel-inner>p>img{
+    width: 59.6px;
+    height: 57.98px;
+    margin-right: 30px;
+}
+
+/*FOOTER*/
+
+.footer{position: relative;
+    display: flex;
+    background: url("../images/footer.png") center center no-repeat;
+    color: rgb(255, 255, 255);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 350px;
+
+}
+
+
+
+.footer-inner{
+    
+    align-items: center;
+    justify-content: center;
+    padding-top: 126px;
+}
+
+.footer-logo{
+    position: absolute;
+    
+}
+.footer-columns{
+    display: flex;
+    margin-left: 250px;
+}
+
+.first-column, .second-column, .third-column, .fourth-column{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-column, .second-column, .third-column, .fourth-column>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    color: #3E3E3E;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3E3E3E;
+    opacity: 0.5;
+}
+
+.footer-bottom{
+    display: flex;
+    padding-top: 22px;
+}
+
+.footer-bottom>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+line-height: 18px;
+margin-right: 600px;
+color: rgba(62, 62, 62, 0.5);
+}
+
+/*FORM*/
+
+.form{
+    background: url("../images/Form.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 475px;
+    padding: 90px 200px;
+}
+
+.form-inner{
+    
+
+}
+
+.form-text>h2{
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    border: none;
+    width: 700px;
+}
+
+.form-text{
+    display: flex;
+}
+
+.form-left{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #EFEFEF;
+    margin-top: 30px;
+}
+
+.form-right{ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.15);
+    width: 275px;
+    height: 180px;
+    padding: 26px 6px;
+}
+
+.form-warning{
+    display: flex;
+    margin-left: 177px;
+    
+}
+
+.form-warning>img{
+    
+    height: 155px;
+}
+
+.form-btn>form{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.form-btn>form>input{
+    margin-left: -10px;
+    color: #FFFFFF;
+}
+
+.form-btn>form>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 170px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    height: 50px;
+    border: none;
+    color: #969696;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form-btn>form>button:active{
+    background-color: rgb(241, 240, 240);
+}
